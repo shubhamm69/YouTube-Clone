@@ -103,3 +103,36 @@ nav {
     background: #ccc;
     width:85%;
 }
+
+.subscribed-list h3{
+    font-size: 15px;
+    margin:20px 0;
+    color: #5a5a5a;
+}
+.subscribed-list p{
+    font-size: medium;
+}
+.subscribed-list a{
+    display:flex;
+    align-items:center;
+    margin-bottom: 20px;
+    width:fit-content;
+    flex-wrap: wrap;
+}
+
+.subscribed-list a img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 28px;
+}
+
+.small-sidebar{
+    width: 5%;
+}
+.small-sidebar a p, .small-sidebar h3 {
+    display:none;
+}
+.small-sidebar hr{
+    width: 50%;
+    margin-bottom: 25px;
+}
